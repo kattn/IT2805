@@ -20,3 +20,10 @@ p{
 ul {
 	margin-top:0px;
 }
+
+img {
+	min-width: 300px;
+	max-width: 75ch;
+	min-height: 300px;
+	max-width: 300px;
+}
