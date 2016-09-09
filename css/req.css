@@ -1,8 +1,13 @@
 body{
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;/*Usikker på font*/
 	margin: auto;
 	max-width: 75ch;
 }
+
+article{
+	
+}
+
 p{
 
 }
