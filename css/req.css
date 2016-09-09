@@ -1,6 +1,8 @@
 body{
 	font-family: Verdana, Geneva, sans-serif;
+	margin: auto;
+	max-width: 75ch;
 }
 p{
-	max-width: 85ch;
+
 }
