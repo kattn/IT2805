@@ -1,6 +1,7 @@
 body{
 	font-family: Verdana, Geneva, sans-serif;
 	margin: auto;
+	margin-top: 4%;
 	max-width: 75ch;
 	background-color: bisque;
 }
@@ -8,6 +9,7 @@ body{
 article{
 
 }
+
 
 h3{
 	margin-bottom: 3px;
