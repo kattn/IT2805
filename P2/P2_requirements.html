@@ -4,7 +4,7 @@
 <head>
 	<title>P2 - Prosjektdesign</title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/req.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
@@ -17,16 +17,76 @@
 
 		<h3>Prosjektet kort oppsumert</h3>
 		<p> 
-			I dette webteknologi-prosjektet skal vi jobbe med Pétur Benedikt Júlíusson som vår kunde. Han er overlege ved poliklinikk for overvekt - barn og unge på Haukeland universitetssykehus og er postdoktor på universitetet i Bergen. Han er prosjektleder for programmet kalt FABO (Family-based Behavioral Treatment of Obesity) og ønsker å få laget en informasjonsnettside for studien. FABO-programmet omhandler overvekt og fedme hos barn og unge. Målet med nettsiden er å kunne informere om dette programmet og studien til pasientene. Nettsiden er også et alternativ for pasienter som bor langt unna poliklinikken. Nettsiden vil først og fremst rettes mot pasientenes foreldre (altså ikke barn), andre forskere, og media. For pasientenes foreldre tenker vi og klienten vår at det vil være interessant å få informasjon om hva det innebærer å delta i studien, og hvordan de best kan støtte barnet. Samt litt generell informasjon om studiet. Denne studien har vært (og er fortsatt) en aktuell sak i media, så denne siden vil også fungere som en informasjonsside for pressen. 
+			I dette webteknologi-prosjektet skal vi jobbe med Pétur Benedikt Júlíusson som vår kunde. Han er overlege ved poliklinikk for overvekt - barn og unge på Haukeland universitetssykehus og er postdoktor på universitetet i Bergen. Han er prosjektleder for programmet kalt FABO (Family-based Behavioral Treatment of Obesity) og ønsker å få laget en informasjonsnettside for studien. FABO-programmet omhandler overvekt og fedme hos barn og unge. Målet med nettsiden er å kunne informere om dette programmet og studien til pasientene. Nettsiden er også en informasjonskilde for pasienter som bor langt unna poliklinikken. Nettsiden vil først og fremst rettes mot pasientenes foreldre (altså ikke barn), andre forskere, og media. For pasientenes foreldre tenker vi og klienten vår at det vil være interessant å få informasjon om hva det innebærer å delta i studien, og hvordan de best kan støtte barnet. Samt litt generell informasjon om studiet. Denne studien har vært (og er fortsatt) en aktuell sak i media, så denne siden vil også fungere som en informasjonsside for pressen. 
 		</p>
 
 		<h3>Navigasjons struktur</h3>
 		<p>
 			Navigasjons strukturen valgt for denne siden er clique som vist i figur 1. Fordelen med dette er at brukeren alltid når alle sidene og nettsiden inneholder 6-10 sider med lenkene til de forskjellige sidene fordelt på footeren og navigasjonsbaren blir det ikke rotete.
 		</p>
-		<img src="img/sitemap.png" alt="Et sitemap som viser strukturen til fremtidige fabo.no." />
+
+		<figure>
+			<img src="img/sitemap.png" alt="Et sitemap som viser strukturen til fremtidige fabo.no." />
+			<figcaption>Figur 1 </figcaption>
+		</figure>
 		
-		<h3>Minstekrav</h3>
+		<h3>Oppsett og utseende</h3>
+		<h5>Fonter</h5>
+		<p>Av fonter har vi foreløpig satt oss på bruk av Tahoma som hovedfont og Arial som fallback-font. 
+		*Skrive noe om størrelse, 1em osv*</p>
+
+		<h5>Logo</h5>
+		<p>UiB og Helse Bergen loger skal med. *Skrive litt mer utfyllende*</p>
+
+		<h5>Fargeskjema og mockups</h5>
+		<p>Vi har sendt to mockups til kunden med forskjellige fargepaletter og avventer svar fra de.</p>
+
+		<figure >
+			<img id="mockup" src="img/BlaaNettside.png" alt="Blå mockup versjon av nettsiden">
+			<figcaption>Lyseblå versjon </figcaption>
+
+			<img id="mockup" src="img/RodNettside.png" alt="Rød mockup versjon av nettsiden">
+			<figcaption>Lyserød versjon</figcaption>
+		</figure>
+
+		<!-- SETT INN BILDER AV FARGESKJEMA-->
+
+		<p>Nettsiden er for et klinisk studie og dette er noe vi prøver å få fram igjennom den lyseblå siden. Ulempen er at den kan virke litt kald iforhold til imøtekommenhet. Den lyserøde versjonen er mer varm i uttrykket. Hvilke retning(blå/rød) vi skal gå mot kommer an på hva klienten og vi blir enig om under neste møte. <br> <br>
+		I navigasjonsbaren velger vi å gå for en mørkere farge enn i footer-en for å få den tydeligere frem. Teksten er mer markant mørkere for å kompensere seg iforhold til bakgrunnsfargen. Vi velger å ikke ha ramme rundt navigasjonsbaren, da vi tenker det blir for mye, men heller en svakere strek som skiller valgmulighetene i baren. Footer-en får en øvre ramme for å lage et naturlig skille mellom footer og side-innhold. </p>
+
+		<h5>Navigasjonsbar</h5>
+		<p>Posisjon: Midt på siden, under header <br><br>
+		*Skrive mer utfyllende her* </p>
+		
+		<h5>Header</h5>
+		<p>*somethingSomething*</p>
+
+		<h5>Footer</h5>
+		<p>Tre lenker, til henholdsvis publikasjoner, sponsorer og kontakt. <br>Kanskje "Har du funner noen feil på nettsiden? Send epost til drift ved drift@drifter.drift"</p>
+
+		<h5>Bakgrunnsbilde</h5>
+		<p>*Ikke bestemt enda, snakke med klient*</p>
+
+		<h5>Språk-knapp</h5>
+		<p>En funksjon hvor brukeren kan trykke på og få nettsiden i engelsk format. Knappen vil være plassert over navigasjonsbaren til høyre med en "EN" og strek under som tydeliggjør at det er en oversettet side</p>
+
+		<h3>Innhold</h3>
+
+		<h5>index.html</h5>
+		<p>Dette vil fungere startsiden. Denne vil inneholde en beskrivelse om målet med nettsiden og studien.</p>
+
+		<h5>sponsorer.html</h5>
+		<h5>resultater.html</h5>
+		<h5>publikasjoner.html</h5>
+		<h5>media.html</h5>
+		<h5>forskningsgruppen.html</h5>
+		<p>Her vil forskningsgruppen bli presentert ved et bilde av hver person, fullt navn, stilling ved sykehuset, stilling i forskningsgruppen og kontaktinformasjonen.
+		</p>
+
+
+
+
+		<h3>JavaScript Applikasjoner</h3>
 		<h5>Footer og header via Javascript</h5>
 		<p>
 			I henhold til prosjekt oppgaven vil footeren og headeren bli implimentert via JavaScript for å unngå repetativ code. Opprettholdesen av Schneidersmans regel om konsistens gjøres enklenere siden det bare gjøres endringer et sted. Problemet med dette er at JavaScript kan slås av av brukeren, så dette må tas i betrakning hvis nettsiden skal vidreutvikles etter IT2805.
@@ -37,6 +97,9 @@
 
 
 		</p>
+		<h5>JavaScript applikasjon 2</h5>
+		<h5>JavaScript applikasjon 3</h5>
+		<h5>JavaScript applikasjon 4</h5>
 
 		<h3>Organiserings oversikt</h3>
 		<ul>
@@ -48,19 +111,17 @@
 			<li>resultater.html</li>
 			<li>forskningsgruppen.html</li>
 			<ul>
-				img/
-				<li>Om vi har bilder</li>
+				<li>img/ : Om vi har bilder</li>
 			</ul>
 			<ul>
-				css/
-				<li>stylesheet.css</li>
+				<li>css/ : stylesheet.css</li>
 			</ul>
 			<ul>
-				scripts/
-				<li>foohead.script</li>
+				<li>scripts/</li>
+				<ul><li>foohead.script</li>
 				<li>app2.script</li>
 				<li>app3.script</li>
-				<li>app4.script</li>
+				<li>app4.script</li></ul>
 			</ul>
 		</ul>
 
