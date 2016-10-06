@@ -52,3 +52,33 @@ th, td {
 .ukeBorder{
 	border-bottom: 3px solid;
 }
+
+.box{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+}
+.renateOgOddrun{
+	background: linear-gradient(90deg, #ADF0FF 50%, #6BE86B 50%);
+}
+.monikaOgMartin{
+	background: linear-gradient(90deg, #FF8770 50%, #FFFF52 50%);
+}
+
+.martin{
+	background-color: #FFFF52;
+}
+.oddrun{
+	background-color: #ADF0FF;
+}
+.monika{
+	background-color: #FF8770;
+}
+.renate{
+	background-color: #6BE86B;
+}
+.alle{
+	background-color: #BF73E6;
+}
+
