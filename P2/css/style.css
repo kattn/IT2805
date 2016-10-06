@@ -38,3 +38,17 @@ figcaption{
 	text-align: left;
 
 }
+
+table {
+    border: solid;
+    border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid;
+    padding: 5px;
+    text-align: left;
+}
+.ukeBorder{
+	border-bottom: 3px solid;
+}
