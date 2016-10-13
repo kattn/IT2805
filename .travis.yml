@@ -5,9 +5,9 @@ python:
 before_install:
  - sudo apt-get update
  - sudo apt-get install oracle-java8-installer
-  - sudo update-java-alternatives -s java-8-oracle
+ - sudo update-java-alternatives -s java-8-oracle
 
-  install:
-   - pip install html5validator
+install:
+  - pip install html5validator
 
-   script: html5validator --root _build/
+script: html5validator --root _build/
