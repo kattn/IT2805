@@ -10,8 +10,7 @@ install:
  
 before_script:
   - npm install -g csslint
-  - npm install -g git://github.com/eslint/eslint.git
-  - npm install -gulp-eslint
+  - npm install gulp-eslint
 
 script: 
   - html5validator --root Fabo/
