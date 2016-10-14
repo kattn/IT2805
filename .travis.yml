@@ -15,7 +15,7 @@ before_script:
 script: 
   - html5validator --root Fabo/
   - csslint Fabo/
-  - eslint ./node_modules/.bin/eslint Fabo/
+  - eslint Fabo/
 
 git:
   depth: 5
