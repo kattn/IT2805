@@ -15,5 +15,5 @@ script:
   - csslint Fabo/
   - eslint Fabo/
 
-  git:
-    depth: 5
+git:
+  depth: 5
