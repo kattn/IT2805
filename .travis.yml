@@ -1,5 +1,7 @@
 language: java
 
+sudo: required
+
 jdk:
   - oraclejdk8
 
@@ -7,7 +9,7 @@ before_install:
   - chmod +x pip
 
 install:
-  - pip install html5validator
+  - sudo pip install html5validator
  
 before_script:
   - npm install -g csslint
