@@ -11,9 +11,10 @@ before_script:
   - npm install -g git://github.com/eslint/eslint.git
 
 script: 
-  - html5validator --root Fabo/
-  - csslint Fabo/
-  - eslint Fabo/
+  - |
+  html5validator --root Fabo/
+  csslint Fabo/
+  eslint Fabo/
 
 git:
   depth: 5
