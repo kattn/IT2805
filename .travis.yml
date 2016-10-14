@@ -10,12 +10,13 @@ install:
  
 before_script:
   - npm install -g csslint
-  - npm install gulp-eslint
+  - npm install eslint
+  - ./node_modules/.bin/eslint --init
 
 script: 
   - html5validator --root Fabo/
   - csslint Fabo/
-  - eslint Fabo/
+  - ./node_modules/.bin/eslint Fabo/
 
 git:
   depth: 5
