@@ -5,9 +5,6 @@ sudo: required
 jdk:
   - oraclejdk8
 
-before_install:
-  - chmod +x pip
-
 install:
   - sudo pip install html5validator
  
