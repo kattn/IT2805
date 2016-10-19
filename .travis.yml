@@ -1,13 +1,22 @@
-language: python
-python:
-  - "2.7"
+language: java
 
-before_install:
- - sudo apt-get update
- - sudo apt-get install oracle-java8-installer
- - sudo update-java-alternatives -s java-8-oracle
+sudo: required
+
+jdk:
+  - oraclejdk8
 
 install:
-  - pip install html5validator
+  - sudo pip install html5validator
+ 
+before_script:
+  - npm install -g csslint
+  - npm install eslint
+  - ./node_modules/.bin/eslint --init
 
-script: html5validator --root Fabo/
+script: 
+  - html5validator --root Fabo/
+  - csslint Fabo/
+  - ./node_modules/.bin/eslint Fabo/
+
+git:
+  depth: 5
