@@ -17,52 +17,67 @@ img{
 	padding: 0;
 }
 
+/* NAVIGASJONSBAR DESIGN
+   --------------------- */
+
+/*Plassering og bakgrunnsfarge av navbar*/
 .navbar {
 	background-color: #c3d1d8;
-	overflow: hidden;
+	overflow: hidden; /*Viser bakgrunnsfargen for navbar*/
 	padding: 0;
 	margin: 0;
-	list-style-type: none;
+	list-style-type: none; /*fjerner listestyling*/
 }
 
+/* Plasserer menyknappene ved siden av hverandre
+   og lager border imellom*/
 li{
 	float: left;
+	border-left: solid #a7b3ba;
+}
+
+/*Fjerne venstre border på "FABO-studien" */
+li:nth-child(1){
+	border-left: none;
 }
 
 /*Navigasjonsinnholds design*/
 li a, .dropbtn {
 	color: #556670;
-	display: inline-block;
-	text-align: center;
-	padding: 10px 12px;
-	text-decoration: none;
-	min-width: 100px;
+	display: inline-block; /*Gjør menyene til blocks*/
+	text-align: left;
+	padding: 15px 17px; /*størrelsen på hver meny i navbar*/ 
+	text-decoration: none; /*Fjerne link-understrek*/
 }
 
+/*Mus-hovering design*/
 li a:hover, .dropdown:hover .dropbtn {
 	background-color: #e6eaed;
 }
 
+
 li.dropdown {
-	display: inline-block;
+	display: inline-block; /*Gjør dropdownmenyene til blocks*/
 }
 
+/*Dropdown meny design*/
 .dropdowncnt{
-	display: none;
+	display: none; /*Dropdown skjules*/
 	position: absolute;
-	background-color: #c3d1d8; /*bakgrunnsfarge til nav-bar*/
+	background-color: #c3d1d8; /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	border-right: solid #a7b3ba; /*Border til høyre for dropdown-menyene*/
 }
 
 .dropdowncnt a {
 	color: #556670;
 	font-size: 10.5pt;
 	text-align: left;
-	text-decoration: none;
-	padding: 10px 12px; /*Samme padding som nav-bar*/
-	display: block;
+	text-decoration: none; /*Fjerner link-understrek*/
+	padding: 15px 17px; /*Samme padding som nav-bar*/
+	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 }
 
-/*display block viser dropdownmenyene*/
+
 .dropdown:hover .dropdowncnt {
-	display: block;
+	display: block; /*Dropdownmenyene vises når hovres*/
 }
