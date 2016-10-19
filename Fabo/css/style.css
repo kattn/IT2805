@@ -1,13 +1,20 @@
 body{
 	
 	background-color: #F4F4F4; /*Veldig lys grå*/
-	font: Tahoma, Arial;
+	font-style: Tahoma;
+	color: #282828;
 	font-size: 14pt;
 	margin-left: 15%;
 	margin-right: 15%;
 }
 h2{
 	font-size: 30pt;
+}
+
+img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
