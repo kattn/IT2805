@@ -1,7 +1,7 @@
 body{
 	
 	background-color: #F4F4F4; /*Veldig lys grå*/
-	font-style: Tahoma, Arial;
+	font-family: Tahoma, Arial;
 	color: #282828;
 	font-size: 14pt;
 	margin-left: 15%;
@@ -73,7 +73,7 @@ li.dropdown {
 	font-size: 10.5pt;
 	text-align: left;
 	text-decoration: none; /*Fjerner link-understrek*/
-	padding: 15px 17px; /*Samme padding som nav-bar*/
+	padding: 14px; /*Gjør dropdownmenyen lik størrelse med første meny i navbar*/
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 }
 
