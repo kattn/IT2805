@@ -65,7 +65,6 @@ li.dropdown {
 	display: none; /*Dropdown skjules*/
 	position: absolute;
 	background-color: #c3d1d8; /*bakgrunnsfarge på dropdown, samme som nav-bar*/
-	border-right: solid #a7b3ba; /*Border til høyre for dropdown-menyene*/
 }
 
 .dropdowncnt a {
