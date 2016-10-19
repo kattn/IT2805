@@ -43,7 +43,7 @@ li:nth-child(1){
 }
 
 /*Navigasjonsinnholds design*/
-li a, .dropbtn {
+li a, .dropbtn{
 	color: #556670;
 	display: inline-block; /*Gjør menyene til blocks*/
 	text-align: left;
