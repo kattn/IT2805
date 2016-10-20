@@ -12,9 +12,10 @@ install:
   - sudo pip install html5validator
  
 before_script:
+  - npm -v
+  - eslint --init
   - npm install -g csslint
   - npm install -g eslint
-  - eslint --init
 
 script: 
   - html5validator --root Fabo/
