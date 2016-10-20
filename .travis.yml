@@ -12,7 +12,9 @@ install:
   - sudo pip install html5validator
  
 before_script:
-  - node -v
+  - sudo npm cache clean -f
+  - sudo npm install -g n
+  - sudo n stable
   - npm install -g csslint
   - npm install -g eslint
   - eslint --init
