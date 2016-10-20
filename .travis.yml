@@ -19,6 +19,7 @@ install:
 before_script:
   - sudo npm install -g n
   - sudo n stable
+  - node -v
   - npm install -g csslint
   - npm install -g eslint
   - eslint --init
