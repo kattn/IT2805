@@ -9,8 +9,9 @@ jdk:
   - oraclejdk8
 
 before_install:
-  - npm -v
-  - node -v
+- npm install n
+- sudo ./node_modules/.bin/n stable
+- rm -rf ~/.nvm
 
 install:
   - sudo pip install html5validator
