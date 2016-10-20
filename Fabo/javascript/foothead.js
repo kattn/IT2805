@@ -23,13 +23,19 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 	"</ul>";
 
 document.getElementsByTagName("FOOTER")[0].innerHTML = 
+	"<div id=\"linker\">" +
 	"<a href=\"media.html\">Studien i media</a><br>" +
 	"<a href=\"publikasjoner.html\">Publikasjoner</a><br>" +
 	"<a href=\"sponsorer.html\">Sponsorer</a>" + 
+	"</div>" +
+	
 	"<div id=\"kontakt\">" +
 	"<p>Kontakt:</p>" +
 	"<p>petur.juliusson@k2.uib.no</p>" +
 	"<p>91767373</p>" +
 	"</div>" +
+
+	"<div>" +
 	"<img src=\"img/helsebergen_logo.png\" alt=\"logo helsebergen\">" +
-	"<img src=\"img/uib_logo.png\" alt=\"logo uib\">";
+	"<img src=\"img/uib_logo.png\" alt=\"logo uib\">" +
+	"</div>";
