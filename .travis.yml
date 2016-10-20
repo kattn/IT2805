@@ -14,7 +14,7 @@ install:
 before_script:
   - npm install -g csslint
   - npm install -g eslint
-  - node --harmony eslint --init
+  - eslint --init
 
 script: 
   - html5validator --root Fabo/
