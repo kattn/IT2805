@@ -35,7 +35,7 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 	"<p>91767373</p>" +
 	"</div>" +
 
-	"<div>" +
+	"<div id=\"logoer\">" +
 	"<img src=\"img/helsebergen_logo.png\" alt=\"logo helsebergen\">" +
 	"<img src=\"img/uib_logo.png\" alt=\"logo uib\">" +
 	"</div>";
