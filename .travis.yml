@@ -10,13 +10,12 @@ jdk:
 
 before_install:
   - npm -v
+  - node -v
 
 install:
   - sudo pip install html5validator
-  - sudo npm install
  
 before_script:
-  - sudo npm cache clean -f
   - sudo npm install -g n
   - sudo n stable
   - npm install -g csslint
