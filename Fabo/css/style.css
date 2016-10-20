@@ -49,6 +49,7 @@ li a, .dropbtn{
 	text-align: left;
 	padding: 15px 17px; /*størrelsen på hver meny i navbar*/ 
 	text-decoration: none; /*Fjerne link-understrek*/
+	font-size: 12pt;
 }
 
 /*Mus-hovering design*/
@@ -73,7 +74,6 @@ li.dropdown {
 	font-size: 10.5pt;
 	text-align: left;
 	text-decoration: none; /*Fjerner link-understrek*/
-	padding: 14px; /*Gjør dropdownmenyen lik størrelse med første meny i navbar*/
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 }
 
@@ -81,3 +81,37 @@ li.dropdown {
 .dropdown:hover .dropdowncnt {
 	display: block; /*Dropdownmenyene vises når hovres*/
 }
+
+
+footer {
+	border-top: solid #445166;
+	background-color: #bcbcbc;
+}
+
+footer p, a {
+	font-size: 9pt;
+}
+
+
+#linker {
+	float:left;
+	width: 33%
+}
+
+#kontakt {
+	float: left;
+	width: 33%;
+}
+
+#logoer {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	float: right;
+	width: 33%;
+	height: 40%;
+}
+
+#hbergen { width: 50%; height: 50%;}
+#uib { width: 30%; height: 30%;}
+
+
