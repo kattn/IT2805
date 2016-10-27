@@ -112,19 +112,30 @@ footer {
 	background-color: #bcbcbc;
 }
 
-footer p, a {
+footer, .footerTable a {
 	font-size: 9pt;
+	text-decoration: none;
+	color: #282828;
+}
+.footerTable{
+	width: 100%;
 }
 
+#hbergen{ width: 110px; height: 25px;}
+#uib { width: 66px; height: 65px;}
 
+
+/*
 #linker {
 	float:left;
 	width: 33%
 }
 
+
 #kontakt {
 	float: left;
 	width: 33%;
+	
 }
 
 #logoer {
@@ -137,5 +148,5 @@ footer p, a {
 
 #hbergen { width: 110px; height: 25px;}
 #uib { width: 66px; height: 65px;}
-
+*/
 
