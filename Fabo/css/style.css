@@ -18,9 +18,13 @@ body{
 	min-height: 100%;
 }
 
-h2{
+h1, h2, h3{
 	font-size: 30pt;
 	margin-bottom: 0;
+}
+
+p{
+	margin-top: 7px;
 }
 
 img{
