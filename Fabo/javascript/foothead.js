@@ -32,7 +32,7 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"publikasjoner.html\">Publikasjoner</a></td> " +
-			"<td>petur.juliusson@k2.uib.no</td> " +
+			"<td>Mail: petur.juliusson@k2.uib.no</td> " +
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +

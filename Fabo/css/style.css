@@ -116,7 +116,7 @@ footer {
 
 
 footer, .footerTable a {
-	font-size: 9pt; /*Endrer størrelsen på all tekst i footer*/
+	font-size: 10pt; /*Endrer størrelsen på all tekst i footer*/
 	text-decoration: none; /*Fjerner understrek på linker*/
 	color: #282828; /*Setter farge på link-tekst lik all annen tekstfarge*/
 }
