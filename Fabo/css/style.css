@@ -11,13 +11,11 @@ body{
 	margin-left: 15%;
 	margin-right: 15%;
 	
-	/* Bjerke fikser for js */
+	/* For å få footeren til å ikke ligge over teksten */
 	position: relative;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	min-height: 100%;
-
-	/* Bjerk ferri */
 }
 
 h2{
@@ -95,7 +93,6 @@ li.dropdown {
 	display: block; /*Dropdownmenyene vises når hovres*/
 }
 
-/* Bjerke fikser for js */
 #content{
 	position: relative;
 	padding-bottom: 100px;
@@ -108,7 +105,6 @@ footer {
 	width: 100%;
 	bottom: 0px;
 	height: 100px;
-	/* Done */
 	
 	border-top: solid #445166;
 	background-color: #bcbcbc;
