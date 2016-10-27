@@ -101,6 +101,8 @@ li.dropdown {
 	padding-bottom: 100px;
 }
 
+/* FOOTER DESIGN
+   --------------------- */
 footer {
 	position: absolute;
 	width: 100%;
@@ -112,41 +114,33 @@ footer {
 	background-color: #bcbcbc;
 }
 
+
 footer, .footerTable a {
-	font-size: 9pt;
-	text-decoration: none;
-	color: #282828;
+	font-size: 9pt; /*Endrer størrelsen på all tekst i footer*/
+	text-decoration: none; /*Fjerner understrek på linker*/
+	color: #282828; /*Setter farge på link-tekst lik all annen tekstfarge*/
 }
+
+/*Setter størrelse på footerTable*/
 .footerTable{
 	width: 100%;
+	padding: 2%;
 }
 
-#hbergen{ width: 110px; height: 25px;}
-#uib { width: 66px; height: 65px;}
-
-
-/*
-#linker {
-	float:left;
-	width: 33%
+/*Endrer siste celle slik at logoene blir plassert lengst mot høyre*/
+.footerTable tr td:nth-child(4){
+	width: 10%;
 }
 
-
-#kontakt {
-	float: left;
-	width: 33%;
-	
-}
-
-#logoer {
-	padding-top: 2%;
-	padding-bottom: 2%;
+/*Endrer størrelse på logoer og plassering i cellen*/
+#hbergen{ 
+	width: 110px; 
+	height: 25px;
 	float: right;
-	width: 33%;
-	height: 40%;
 }
-
-#hbergen { width: 110px; height: 25px;}
-#uib { width: 66px; height: 65px;}
-*/
+#uib { 
+	width: 66px; 
+	height: 65px;
+	float: right;
+	}
 
