@@ -57,7 +57,7 @@ li a, .dropbtn{
 
 /*Mus-hovering design*/
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: #e6eaed;
+	background-color: #d2d5d8;
 }
 
 
@@ -69,7 +69,7 @@ li.dropdown {
 .dropdowncnt{
 	display: none; /*Dropdown skjules*/
 	position: absolute;
-	background-color: #c3d1d8; /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	background-color: #e6eaed; /*bakgrunnsfarge på dropdown, samme som nav-bar*/
 }
 
 .dropdowncnt a {
