@@ -17,8 +17,12 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"</li>" +	
 		"<li><a href=\"lenker.html\">Lenker</a></li>" +
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
+
+		//Searchbar
+		"<form id=\"searchBar\">"+
+			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\""+
+		"</form>"+
 	"</ul>" +
-	//TEST
 	"<img src=\"img/random.jpg\" alt=\"header\">" +
 	"</a>";
 
