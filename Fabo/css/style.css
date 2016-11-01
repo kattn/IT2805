@@ -101,7 +101,7 @@ li.dropdown {
 
 /*PAGE-TITLE AND CONTENT DESIGN
   ----------------------------- */
-.titleLine{
+#titleLine{
 	border-top: solid 2px #666666; 
 	margin-left: 10%;
 	margin-right: 10%;
