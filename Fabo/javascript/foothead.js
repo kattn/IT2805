@@ -27,8 +27,7 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 		"<tr> " +
 			"<td id=\"annet\">Annet</td> " +
 			"<td id=\"kontakt\">Kontakt</td> " +
-			"<td rowspan=\"5\"><img id=\"hbergen\" src=\"img/helsebergen_logo.png\" alt=\"logo helsebergen\"></td> " +
-			"<td rowspan=\"5\"><img id=\"uib\" src=\"img/uib_logo.png\" alt=\"logo uib\"></td> " +
+			"<td id=\"picCell\" rowspan=\"5\"><img id=\"logo\" src=\"img/logos.png\" alt=\"logo uib and helseBergen\"></td> " +
 		"</tr> " +
 		"<tr> " +
 			"<td><div id=\"borderAnnet\"></div></td> " +
