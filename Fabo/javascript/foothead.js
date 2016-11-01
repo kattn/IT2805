@@ -25,17 +25,25 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 document.getElementsByTagName("FOOTER")[0].innerHTML = 
 	"<table class=\"footerTable\"> " +
 		"<tr> " +
-			"<td><a href=\"media.html\">Studien i media</a></td> " +
-			"<td>Kontakt:</td> " +
-			"<td rowspan=\"3\"><img id=\"hbergen\" src=\"img/helsebergen_logo.png\" alt=\"logo helsebergen\"></td> " +
-			"<td rowspan=\"3\"><img id=\"uib\" src=\"img/uib_logo.png\" alt=\"logo uib\"></td> " +
+			"<td id=\"annet\">Annet</td> " +
+			"<td id=\"kontakt\">Kontakt</td> " +
+			"<td rowspan=\"5\"><img id=\"hbergen\" src=\"img/helsebergen_logo.png\" alt=\"logo helsebergen\"></td> " +
+			"<td rowspan=\"5\"><img id=\"uib\" src=\"img/uib_logo.png\" alt=\"logo uib\"></td> " +
 		"</tr> " +
 		"<tr> " +
-			"<td><a href=\"publikasjoner.html\">Publikasjoner</a></td> " +
+			"<td><div id=\"borderAnnet\"></div></td> " +
+			"<td><div id=\"borderKontakt\"></div></td> " +
+		"</tr> " +
+		"<tr> " +
+			"<td><a href=\"media.html\">Studien i media</a></td> " +
 			"<td>Mail: petur.juliusson@k2.uib.no</td> " +
 		"</tr> " +
 		"<tr> " +
-			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +
+			"<td><a href=\"publikasjoner.html\">Publikasjoner</a></td> " +
 			"<td>Tlf.: 91767373</td> " +
 		"</tr> " +
+		"<tr> " +
+			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +
+			"<td></td>"+
+		"</tr> "+
 	"</table>";

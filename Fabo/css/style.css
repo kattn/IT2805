@@ -4,9 +4,9 @@ html{
 
 body{
 	
-	background-color: white;/*#F4F4F4; Veldig lys grå*/
+	background-color: white;
 	font-family: Century Gothic, sans-serif;
-	color: #282828;
+	color: #595959;/*Skriftfarge i content*/
 	font-size: 13pt;
 	margin: 0;
 	/* For å få footeren til å ikke ligge over teksten */
@@ -19,8 +19,8 @@ h2, h3{
 }
 
 p{
-	margin-top: 3%;
-	margin-bottom: 5%;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 img{
@@ -95,7 +95,7 @@ li.dropdown {
 	padding-left: 10%;
 	padding-right: 10%;
 	margin-top: 4%;
-	padding-bottom: 100px;
+	padding-bottom: 130px;
 
 }
 
@@ -121,14 +121,12 @@ h1{
 footer {
 	position: absolute;
 	width: 100%;
-	bottom: 0px;
-	height: 100px;
-	
+	height: 150px;
 	background-color: #4D4D4D;
 }
 
 footer, .footerTable a {
-	font-size: 10pt; /*Endrer størrelsen på all tekst i footer*/
+	font-size: 11pt; /*Endrer størrelsen på all tekst i footer*/
 	text-decoration: none; /*Fjerner understrek på linker*/
 	color: white; /*Setter farge på link-tekst lik all annen tekstfarge*/
 }
@@ -144,15 +142,21 @@ footer, .footerTable a {
 	width: 10%;
 }
 
+/*Lager linje under Annet og Kontakt i footer*/
+#borderAnnet, #borderKontakt{
+	border-top: solid white 1px;
+	width: 250px;
+}
+
 /*Endrer størrelse på logoer og plassering i cellen*/
 #hbergen{ 
-	width: 110px; 
-	height: 25px;
+	width: 200px; 
+	height: 50px;
 	float: right;
 }
 #uib { 
-	width: 66px; 
-	height: 65px;
+	width: 100px; 
+	height: 100px;
 	float: right;
 	}
 
