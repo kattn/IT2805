@@ -14,11 +14,12 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 				"<a href=\"helse.html\">For helsesøstre</a>" +
 				"<a href=\"familie.html\">For familie</a>" +
 			"</div>" +
-		"</li>" +	
+		"</li>" +
 		"<li><a href=\"lenker.html\">Lenker</a></li>" +
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
 
 		//Searchbar
+		"<img src=\"img/searchiconDefault.png\" alt=\"searchicon\" id=\"searchiconDefault\">"+
 		"<form id=\"searchBar\">"+
 			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\""+
 		"</form>"+
