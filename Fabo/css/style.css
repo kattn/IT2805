@@ -200,6 +200,20 @@ footer, .footerTable a {
 	height: 100px;
 }
 
+/*PUBLIKASJONER.HTML
+  ------------------*/
+#center{
+	text-align: center;
+}
+
+#authors{
+
+}
+
+#articleTitle{
+	font-size: 16px;
+}
+
 /*BLOGGINNLEGG I NYTT.HTML
   ------------------------*/
 .posts{
