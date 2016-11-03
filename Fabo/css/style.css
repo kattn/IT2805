@@ -4,27 +4,23 @@ html{
 
 body{
 	
-	background-color: #F4F4F4; /*Veldig lys grå*/
-	font-family: Tahoma, Arial;
-	color: #282828;
-	font-size: 14pt;
-	margin-left: 15%;
-	margin-right: 15%;
-	
+	background-color: white;
+	font-family: Century Gothic, sans-serif;
+	color: #595959;/*Skriftfarge i content*/
+	font-size: 13pt;
+	margin: 0;
 	/* For å få footeren til å ikke ligge over teksten */
 	position: relative;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	min-height: 100%;
 }
 
-h1, h2, h3{
-	font-size: 30pt;
+h2, h3{
 	margin-bottom: 0;
 }
 
 p{
-	margin-top: 7px;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 img{
@@ -38,40 +34,34 @@ img{
 
 /*Plassering og bakgrunnsfarge av navbar*/
 .navbar {
-	background-color: #c3d1d8;
+	background-color: #333333;/*#c3d1d8;*/
 	overflow: hidden; /*Viser bakgrunnsfargen for navbar*/
-	padding: 0;
-	margin: 0;
+	padding-left: 0;
+	margin: 0; /*fjerner margin rundt navbar*/
 	list-style-type: none; /*fjerner listestyling*/
+}
+
+/*Navigasjonsinnholds design*/
+li a{
+	color: white;/*#556670;*/
+	display: inline-block; /*Gjør menyene til blocks*/
+	text-align: left;
+	padding: 20px; /*Mer rom rundt menyknapp*/
+	text-decoration: none; /*Fjerne link-understrek*/
+	font-size: 13pt;
 }
 
 /* Plasserer menyknappene ved siden av hverandre
    og lager border imellom*/
 li{
 	float: left;
-	border-left: solid #a7b3ba;
+	border-right: solid 1px white /*#a7b3ba*/;
 }
 
 /*Fjerne venstre border på "FABO-studien" */
-li:nth-child(1){
-	border-left: none;
+li:nth-child(4){
+	border-right: none;
 }
-
-/*Navigasjonsinnholds design*/
-li a, .dropbtn{
-	color: #556670;
-	display: inline-block; /*Gjør menyene til blocks*/
-	text-align: left;
-	padding: 15px 17px; /*størrelsen på hver meny i navbar*/ 
-	text-decoration: none; /*Fjerne link-understrek*/
-	font-size: 12pt;
-}
-
-/*Mus-hovering design*/
-li a:hover, .dropdown:hover .dropbtn {
-	background-color: #d2d5d8;
-}
-
 
 li.dropdown {
 	display: inline-block; /*Gjør dropdownmenyene til blocks*/
@@ -81,43 +71,110 @@ li.dropdown {
 .dropdowncnt{
 	display: none; /*Dropdown skjules*/
 	position: absolute;
-	background-color: #e6eaed; /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
 }
 
+/*Dropdown innhold style*/
 .dropdowncnt a {
 	color: #556670;
-	font-size: 10.5pt;
+	font-size: 11pt;
 	text-align: left;
 	text-decoration: none; /*Fjerner link-understrek*/
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
+	padding: 15px;
 }
 
-
+/*dropdown når mus over*/
 .dropdown:hover .dropdowncnt {
 	display: block; /*Dropdownmenyene vises når hovres*/
 }
 
+/*innhold body*/
 #content{
 	position: relative;
-	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 4%;
+	padding-bottom: 130px;
+
 }
+
+/*SEARCHBAR IN NAVBAR
+  -------------------*/
+
+/*Bare searchbar i default modus*/
+#searchiconDefault{
+	float: right;
+	width: 25px;
+	height: 25px;
+	margin-right: 15px;
+	margin-top: 15px; 
+}
+
+/*Innholdet i searchbaren
+  Kode hentet fra: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_anim_search*/
+#searchBarCnt{
+	float: right;
+	width: 30px;
+	font-family: Century Gothic, sans-serif;
+	box-sizing: border-box; /*width og height inkluderer content, padding, border, men ikke margin*/
+	border: 2px solid #ccc;
+	border-radius: 4px; /*runde kanter*/
+	font-size: 13px;
+	background-color: white; /*hvis ikke search-bildet vises*/
+	background-image: url("Y:/Documents/IT2805/Fabo/img/searchicon.png");
+	background-size: 20px;
+	background-position: 10px;
+	background-repeat: no-repeat; 
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out; /*smooth forstørring*/
+	transition: width 0.4s ease-in-out; /*smooth forminsking*/
+}
+
+/*selve searchbaren og dens padding*/
+#searchBar{
+	padding-top:8px; 
+	padding-right: 8px;
+}
+
+#searchBarCnt:focus{
+	width: 30%;
+}
+
+/*PAGE-TITLE AND CONTENT DESIGN
+  ----------------------------- */
+#titleLine{
+	border-top: solid 2px #666666; 
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 0; 
+}
+h1{
+	text-align: center;
+	margin-bottom: 1%;
+	margin-top: 10%;
+}
+
+
+
 
 /* FOOTER DESIGN
    --------------------- */
 footer {
 	position: absolute;
+	
 	bottom: 0px;
 	height: 100px;
+	width: 100%;
 	
 	border-top: solid #445166;
 	background-color: #bcbcbc;
 }
 
-
 footer, .footerTable a {
-	font-size: 9pt; /*Endrer størrelsen på all tekst i footer*/
+	font-size: 11pt; /*Endrer størrelsen på all tekst i footer*/
 	text-decoration: none; /*Fjerner understrek på linker*/
-	color: #282828; /*Setter farge på link-tekst lik all annen tekstfarge*/
+	color: white; /*Setter farge på link-tekst lik all annen tekstfarge*/
 }
 
 /*Setter størrelse på footerTable*/
@@ -127,19 +184,63 @@ footer, .footerTable a {
 }
 
 /*Endrer siste celle slik at logoene blir plassert lengst mot høyre*/
-.footerTable tr td:nth-child(4){
+.footerTable tr td:nth-child(3){
 	width: 10%;
 }
 
-/*Endrer størrelse på logoer og plassering i cellen*/
-#hbergen{ 
-	width: 110px; 
-	height: 25px;
-	float: right;
+/*Lager linje under Annet og Kontakt i footer*/
+#borderAnnet, #borderKontakt{
+	border-top: solid white 1px;
+	width: 250px;
 }
-#uib { 
-	width: 66px; 
-	height: 65px;
-	float: right;
-	}
 
+#picCell{
+	background-color: white;
+}
+
+/*Endrer størrelse på logoer og plassering i cellen*/
+#logo{
+	width: 250px;
+	height: 100px;
+}
+
+/*PUBLIKASJONER.HTML
+  ------------------*/
+#center{
+	text-align: center;
+}
+
+#authors{
+
+}
+
+#articleTitle{
+	font-size: 16px;
+}
+
+/*BLOGGINNLEGG I NYTT.HTML
+  ------------------------*/
+.posts{
+	border: dashed 1.5px;
+}
+
+.posts p, .posts h2, .posts h5{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.posts h2{
+	margin-bottom: 0;
+}
+
+.posts h5{
+	margin-top: 0;
+}
+.postPic{
+	display: block;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+
+}
