@@ -42,7 +42,7 @@ img{
 }
 
 /*Navigasjonsinnholds design*/
-li a{
+.navbar li a{
 	color: white;/*#556670;*/
 	display: inline-block; /*Gjør menyene til blocks*/
 	text-align: left;
@@ -162,7 +162,7 @@ h1{
    --------------------- */
 footer {
 	position: absolute;
-	
+
 	bottom: 0px;
 	height: 100px;
 	width: 100%;
