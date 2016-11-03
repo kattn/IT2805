@@ -27,6 +27,10 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 	"<img src=\"img/random.jpg\" alt=\"header\">" +
 	"</a>";
 
+/*var list = document.createElement("UL");
+list.setAttributeNode(document.createAttribute("class").value = "navbar");
+var li = document.createElement("LI")*/
+
 document.getElementsByTagName("FOOTER")[0].innerHTML = 
 	"<table class=\"footerTable\"> " +
 		"<tr> " +
@@ -51,3 +55,5 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 			"<td></td>"+
 		"</tr> "+
 	"</table>";
+
+
