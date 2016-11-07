@@ -164,6 +164,7 @@ h1{
    --------------------- */
 footer {
 	position: absolute;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	height: 150px;
 	width: 100%;
