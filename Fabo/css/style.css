@@ -301,7 +301,7 @@ footer a:hover{
 	width: 100%
 }
 
-#ressurstabell a{
+#ressurstabell a:hover{
 	text-decoration: underline;
 }
 
