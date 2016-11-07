@@ -31,7 +31,7 @@ img{
 a{
 	color: #595959;
 	font-size: 13pt;
-	text-decoration-style: none; /*Fjerner link-understrek*/
+	text-decoration: none; /*Fjerner link-understrek*/
 }
 
 /* NAVIGASJONSBAR DESIGN
