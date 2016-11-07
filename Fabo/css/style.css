@@ -266,3 +266,9 @@ footer, .footerTable a {
 
 
 }
+
+/* Helsesøster lenker */
+
+.helse{
+	text-decoration: underline; /* For at helsesøsterne lettest mulig skal få tak i filen de ønsker*/
+}
