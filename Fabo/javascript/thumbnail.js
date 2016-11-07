@@ -1,13 +1,19 @@
 
-var img1 = document.getElementById("tonje");
+var images = document.getElementsByClassName("bilde_media1");
 
-img1.addEventListener('mouseover', function (event) {
-	img1.style.height="200px";
-	img1.style.width="300px";
+console.log(images);
+console.log(typeof images);
+console.log(typeof images[0]);
+for (var i = 0, len = images.length; i < len; i++){
+	images[i].addEventListener('mouseover', function (event) {
+		images[i].setAttribute("class", "bilde_media2");
+	});
+
+}
+
+/*
+images.addEventListener('mouseout', function (event){
+	images.ClassName="bilde_media1";
+
 });
-
-img1.addEventListener('mouseout', function (event){
-	img1.style.height="120px";
-	img1.style.width="190px";
-
-});
+*/

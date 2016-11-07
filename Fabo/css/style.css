@@ -29,12 +29,6 @@ img{
 	padding: 0;
 }
 
-a{
-	color: #595959;/*Skriftfarge i content*/
-	font-size: 13pt;
-	text-decoration: none; /*Fjerne link-understrek*/
-}
-
 /* NAVIGASJONSBAR DESIGN
    --------------------- */
 
@@ -48,11 +42,13 @@ a{
 }
 
 /*Navigasjonsinnholds design*/
-.navbar li a{
+li a{
 	color: white;/*#556670;*/
 	display: inline-block; /*Gjør menyene til blocks*/
 	text-align: left;
 	padding: 20px; /*Mer rom rundt menyknapp*/
+	text-decoration: none; /*Fjerne link-understrek*/
+	font-size: 13pt;
 }
 
 /* Plasserer menyknappene ved siden av hverandre
@@ -72,17 +68,18 @@ li.dropdown {
 }
 
 /*Dropdown meny design*/
-.navbar .dropdowncnt{
+.dropdowncnt{
 	display: none; /*Dropdown skjules*/
 	position: absolute;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
 }
 
 /*Dropdown innhold style*/
-.navbar .dropdowncnt a {
+.dropdowncnt a {
 	color: #556670;
 	font-size: 11pt;
 	text-align: left;
+	text-decoration: none; /*Fjerner link-understrek*/
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 	padding: 15px;
 }
@@ -165,7 +162,7 @@ h1{
    --------------------- */
 footer {
 	position: absolute;
-
+	
 	bottom: 0px;
 	height: 100px;
 	width: 100%;
@@ -248,9 +245,17 @@ footer, .footerTable a {
 
 }
 
-.bilde_media{
+/*Lite bilde*/
+.bilde_media1 {
 	width: 190px;
 	height: 120px;
+}
+
+/*Større bilde når man hover over*/
+.bilde_meida2 {
+	width: 300px;
+	height: 200px;
+	position: absolute;
 }
 
 .lenker_media{
@@ -258,5 +263,6 @@ footer, .footerTable a {
 }
 
 .post_meida{
+
 
 }
