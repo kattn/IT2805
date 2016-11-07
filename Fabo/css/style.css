@@ -253,6 +253,8 @@ footer, .footerTable a {
 	width: 190px;
 	height: 120px;
 	position: relative;
+	transition: width 1s;
+	transition: height 1s;
 }
 
 /*Større bilde når man hover over*/
@@ -281,7 +283,7 @@ footer, .footerTable a {
 /*Endrer farge når man hover*/		
 .lenker_media:hover {
 	color: gray;
-
+}
 /* Helsesøster lenker */
 
 .helse{
