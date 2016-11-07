@@ -1,5 +1,5 @@
 
-var images = document.getElementsByTagName("img");
+var images = document.getElementsByClassName("bilde_media1");
 
 console.log(images)
 
