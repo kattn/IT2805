@@ -28,6 +28,12 @@ img{
 	padding: 0;
 }
 
+a{
+	color: #595959;
+	font-size: 13pt;
+	text-decoration: none; /*Fjerner link-understrek*/
+}
+
 /* NAVIGASJONSBAR DESIGN
    --------------------- */
 
@@ -41,13 +47,11 @@ img{
 }
 
 /*Navigasjonsinnholds design*/
-li a{
+.navbar li a{
 	color: white;/*#556670;*/
 	display: inline-block; /*Gjør menyene til blocks*/
 	text-align: left;
 	padding: 20px; /*Mer rom rundt menyknapp*/
-	text-decoration: none; /*Fjerne link-understrek*/
-	font-size: 13pt;
 }
 
 /* Plasserer menyknappene ved siden av hverandre
@@ -67,18 +71,17 @@ li.dropdown {
 }
 
 /*Dropdown meny design*/
-.dropdowncnt{
+.navbar .dropdowncnt{
 	display: none; /*Dropdown skjules*/
 	position: absolute;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
 }
 
 /*Dropdown innhold style*/
-.dropdowncnt a {
+.navbar .dropdowncnt a {
 	color: #556670;
 	font-size: 11pt;
 	text-align: left;
-	text-decoration: none; /*Fjerner link-understrek*/
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 	padding: 15px;
 }
@@ -161,6 +164,7 @@ h1{
    --------------------- */
 footer {
 	position: absolute;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	height: 150px;
 	width: 100%;
@@ -273,7 +277,12 @@ footer, .footerTable a {
 
 }
 
+
 /*Endrer farge når man hover*/		
 .lenker_media:hover {
 	color: gray;
-}
+
+/* Helsesøster lenker */
+
+.helse{
+	text-decoration: underline; /* For at helsesøsterne lettest mulig skal få tak i filen de ønsker*/
