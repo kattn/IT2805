@@ -19,7 +19,6 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
 
 		//Searchbar
-		"<img src=\"img/searchiconDefault.png\" alt=\"searchicon\" id=\"searchiconDefault\">"+
 		"<form id=\"searchBar\">"+
 			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\""+
 		"</form>"+
