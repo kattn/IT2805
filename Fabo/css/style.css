@@ -33,11 +33,13 @@ a{
 
 /*Plassering og bakgrunnsfarge av navbar*/
 .navbar {
-	background-color: #333333;/*#c3d1d8;*/
+	width: 100%;
+	background-color: #4c4b4b;
 	overflow: hidden; /*Viser bakgrunnsfargen for navbar*/
 	padding-left: 0;
 	margin: 0; /*fjerner margin rundt navbar*/
 	list-style-type: none; /*fjerner listestyling*/
+	position: fixed;
 }
 
 /*Navigasjonsinnholds design*/
@@ -131,10 +133,10 @@ li.dropdown {
 /*HEADER PICTURE
   --------------*/
 #headerPic{
+	padding-top: 60px;
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
-	padding: 0;
 
 }
 
