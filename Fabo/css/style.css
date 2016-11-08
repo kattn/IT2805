@@ -22,12 +22,6 @@ p{
 	margin-bottom: 15px;
 }
 
-img{
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
 a{
 	color: #595959;
 	font-size: 13pt;
@@ -132,6 +126,16 @@ li.dropdown {
 
 #searchBarCnt:focus{
 	width: 30%;
+}
+
+/*HEADER PICTURE
+  --------------*/
+#headerPic{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 0;
+
 }
 
 /*PAGE-TITLE AND CONTENT DESIGN
