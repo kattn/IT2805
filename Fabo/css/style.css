@@ -40,6 +40,7 @@ a{
 	margin: 0; /*fjerner margin rundt navbar*/
 	list-style-type: none; /*fjerner listestyling*/
 	position: fixed;
+	z-index: +1;
 }
 
 /*Navigasjonsinnholds design*/
@@ -69,7 +70,7 @@ li.dropdown {
 /*Dropdown meny design*/
 .navbar .dropdowncnt{
 	display: none; /*Dropdown skjules*/
-	position: absolute;
+	position: fixed;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
 }
 
