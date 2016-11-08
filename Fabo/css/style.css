@@ -11,6 +11,7 @@ body{
 	margin: 0;
 	min-height: 100%;
 	min-width: 100%;
+	position: absolute;
 }
 
 h2, h3{
@@ -34,13 +35,14 @@ a{
 /*Plassering og bakgrunnsfarge av navbar*/
 .navbar {
 	width: 100%;
+	height: 66px;
 	background-color: #4c4b4b;
 	overflow: hidden; /*Viser bakgrunnsfargen for navbar*/
 	padding-left: 0;
-	margin: 0; /*fjerner margin rundt navbar*/
 	list-style-type: none; /*fjerner listestyling*/
 	position: fixed;
 	z-index: +1;
+	margin: 0; /*fjerner margin rundt navbar*/
 }
 
 /*Navigasjonsinnholds design*/
@@ -48,14 +50,15 @@ a{
 	color: white;/*#556670;*/
 	display: inline-block; /*Gjør menyene til blocks*/
 	text-align: left;
-	padding: 20px; /*Mer rom rundt menyknapp*/
+	padding: 2px; /*Mer rom rundt menyknapp*/
+	margin: 20px;
 }
 
 /* Plasserer menyknappene ved siden av hverandre
    og lager border imellom*/
 li{
 	float: left;
-	border-right: solid 1px white /*#a7b3ba*/;
+	border-right: solid 1px gray /*#a7b3ba*/;
 }
 
 /*Fjerne venstre border på "FABO-studien" */
@@ -72,6 +75,8 @@ li.dropdown {
 	display: none; /*Dropdown skjules*/
 	position: fixed;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	border-bottom: solid #f2f2f2;
+	/*border-right: solid #f2f2f2;*/
 }
 
 /*Dropdown innhold style*/
@@ -80,13 +85,20 @@ li.dropdown {
 	font-size: 11pt;
 	text-align: left;
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
-	padding: 15px;
+	padding: 10px;
+	margin: 20px;
 }
 
 /*dropdown når mus over*/
 .dropdown:hover .dropdowncnt {
 	display: block; /*Dropdownmenyene vises når hovres*/
 }
+
+.navbar li a:hover {
+	border-bottom: solid gray 1px;
+}
+
+
 
 
 /*SEARCHBAR IN NAVBAR
@@ -276,7 +288,8 @@ footer a:hover{
 .bilde_meida2 {
 	width: 200px;
 	height: 130px;
-	position: relative;
+	position: absolute;
+	z-index: +0.5;
 
 }
 
