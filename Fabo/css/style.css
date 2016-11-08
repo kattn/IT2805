@@ -56,13 +56,13 @@ a{
 
 /* Plasserer menyknappene ved siden av hverandre
    og lager border imellom*/
-li{
+.navbar li{
 	float: left;
 	border-right: solid 1px gray /*#a7b3ba*/;
 }
 
 /*Fjerne venstre border på "FABO-studien" */
-li:nth-child(4){
+.navbar li:nth-child(4){
 	border-right: none;
 }
 
@@ -152,6 +152,7 @@ li.dropdown {
 	margin-right: 15%;
 
 }
+
 
 /*PAGE-TITLE AND CONTENT DESIGN
   ----------------------------- */
@@ -343,3 +344,6 @@ footer a:hover{
 #ressurstabell td:first-child{
 	width: 50%
 }
+
+#tittel {
+	font-size: 18px;
