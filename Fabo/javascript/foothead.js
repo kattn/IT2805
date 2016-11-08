@@ -23,7 +23,6 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\""+
 		"</form>"+
 	"</ul>" +
-	"<img id=\"headerPic\" src=\"img/header1.jpg\" alt=\"header\">" +
 	"</a>";
 
 /*var list = document.createElement("UL");
