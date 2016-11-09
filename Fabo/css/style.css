@@ -281,30 +281,31 @@ footer a:hover{
 .bilde_media1 {
 	width: 220px;
 	height: 140px;
-	position: relative;
+	transition: all 0.5s;
 
 }
 
 /*Større bilde når man hover over*/
-.bilde_meida2 {
-	width: 200px;
-	height: 130px;
-	position: absolute;
+.bilde_media2 {
+	width: 300px;
+	height: 180px;
 	z-index: +0.5;
+	margin-left: -3%;
+	transition: all 0.5s;
+	position: relative;
 
 }
 
 .tekst{
 	position: absolute;
 	display: inline-block;
-	margin-left: 2%;
+	margin-left: 3%;
+	width: 100%;
 }
 
 /*Styling for lenkene*/
 .tekst a{
 	font-size: 15pt;
-	margin-top: 2%;
-	padding-left: 2%;
 	color: dimgray;
 }
 
@@ -315,7 +316,7 @@ footer a:hover{
 
 /*Endrer farge når man hover*/		
 .tekst a:hover {
-	color: gray;
+	color: lightgray;
 }
 
 /* Styling for hele posten (bilder + lenker) */

@@ -1,7 +1,7 @@
 document.getElementsByTagName("HEADER")[0].innerHTML = 
 	"<ul class=\"navbar\">" +
 		"<li class=\"dropdown\">" +
-			"<a href=\"#\" class=\"dropbtn\">FABO-studien</a>" +
+			"<a href=\"index.html\" class=\"dropbtn\">FABO-studien</a>" +
 			"<div class=\"dropdowncnt\">" +
 				"<a href=\"index.html\">Om Studien</a>" +
 				"<a href=\"forskningsgruppen.html\">Forskningsgruppen</a>" +
@@ -9,7 +9,7 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"</li>" +
 	
 		"<li class=\"dropdown\">" +
-			"<a href=\"#\" class=\"dropbtn\">Materiell</a>" +
+			"<a href=\"familie.html\" class=\"dropbtn\">Materiell</a>" +
 			"<div class=\"dropdowncnt\">" +
 				"<a href=\"helse.html\">For helsesøstre</a>" +
 				"<a href=\"familie.html\">For familie</a>" +
