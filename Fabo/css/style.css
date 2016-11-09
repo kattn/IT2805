@@ -104,15 +104,6 @@ li.dropdown {
 /*SEARCHBAR IN NAVBAR
   -------------------*/
 
-/*Bare searchbar i default modus*/
-#searchiconDefault{
-	float: right;
-	width: 25px;
-	height: 25px;
-	margin-right: 15px;
-	margin-top: 15px; 
-}
-
 /*Innholdet i searchbaren
   Kode hentet fra: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_anim_search*/
 #searchBarCnt{
@@ -124,7 +115,7 @@ li.dropdown {
 	border-radius: 4px; /*runde kanter*/
 	font-size: 13px;
 	background-color: white; /*hvis ikke search-bildet vises*/
-	background-image: url("Y:/Documents/IT2805/Fabo/img/searchicon.png");
+	background-image: url("searchicon.png");
 	background-size: 20px;
 	background-position: 10px;
 	background-repeat: no-repeat; 
@@ -350,3 +341,24 @@ footer a:hover{
 	font-size: 18px;
 
 }
+
+/*---LENKER.HTML-----*/
+
+/*Størrelsen på bildeutklipp av nettside*/
+.bildeLenke{
+	width: 220px;
+	height: 140px;
+	border: solid grey 1px;
+}
+
+/*Endrer fargen på lenketeksten til lys grå når hovering*/
+.lenke:hover {
+	color: #adadad;
+}
+
+/*Avstand mellom Lenker(m/bilde)*/
+.lenkeAvstand{
+	width: 20%;
+	padding-top: 4%;
+}
+
