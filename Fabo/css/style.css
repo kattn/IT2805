@@ -341,3 +341,26 @@ footer a:hover{
 	font-size: 18px;
 
 }
+
+/*---LENKER.HTML-----*/
+
+/*Størrelsen på bildeutklipp av nettside*/
+.bildeLenke{
+	width: 220px;
+	height: 140px;
+	border: solid grey 1px;
+}
+
+/*Endrer fargen på lenketeksten til lys grå når hovering*/
+.lenke:hover {
+	color: #adadad;
+}
+
+/*Avstand mellom Lenker(m/bilde)*/
+.lenkeAvstand{
+	width: 20%;
+	padding-top: 4%;
+	transform: scale(1);
+	transition: all 0.5s;
+}
+
