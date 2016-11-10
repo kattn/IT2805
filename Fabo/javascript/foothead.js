@@ -1,15 +1,19 @@
 document.getElementsByTagName("HEADER")[0].innerHTML = 
-	"<ul class=\"navbar\">" +
-		"<li class=\"dropdown\">" +
-			"<a href=\"index.html\" class=\"dropbtn\">FABO-studien</a>" +
+	"<ul class=\"navbar\" id=\"myNavbar\">" +
+		"<li class=\"icon\">"+
+			"<a href=\"javascript:void(0);\" style=\"font-size:60pt;\" onclick=\"responsiveFunction()\">☰</a>"+
+		"</li>"+
+		"<li id= \"fabo_studien_knapp\" class=\"dropdown\" onclick=\"dropdownFunction(false)\">" +
+			//"<a href=\"index.html\" class=\"dropbtn\">FABO-studien</a>" +
+			"<a href=\"#\" class=\"dropbtn\">FABO-studien</a>"+
 			"<div class=\"dropdowncnt\">" +
 				"<a href=\"index.html\">Om Studien</a>" +
 				"<a href=\"forskningsgruppen.html\">Forskningsgruppen</a>" +
 			"</div>" +
 		"</li>" +
 	
-		"<li class=\"dropdown\">" +
-			"<a href=\"familie.html\" class=\"dropbtn\">Materiell</a>" +
+		"<li id = \"materiell_knapp\" class=\"dropdown\" onclick=\"dropdownFunction(true)\">" +
+			"<a href=\"#\" class=\"dropbtn\">Materiell</a>" +
 			"<div class=\"dropdowncnt\">" +
 				"<a href=\"helse.html\">For helsesøstre</a>" +
 				"<a href=\"familie.html\">For familie</a>" +
@@ -17,7 +21,6 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"</li>" +
 		"<li><a href=\"lenker.html\">Lenker</a></li>" +
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
-
 		//Searchbar
 		"<form id=\"searchBar\">"+
 			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\">"+
