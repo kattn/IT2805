@@ -61,9 +61,8 @@ a{
 	border-right: solid 1px white;
 }
 
-/*Fjerne venstre border på "FABO-studien" */
 .navbar li:nth-child(4){
-	border-right: none;
+	border-style: none;
 }
 
 li.dropdown {
@@ -94,6 +93,7 @@ li.dropdown {
 	display: block; /*Dropdownmenyene vises når hovres*/
 }
 
+/*linje under mus over menyknapp*/
 .navbar li a:hover {
 	border-bottom: solid gray 1px;
 }
@@ -208,6 +208,8 @@ footer a:hover{
 .footerTable{
 	width: 100%;
 	padding: 2%;
+	padding-bottom: 0;
+
 }
 
 /*Endrer siste celle slik at logoene blir plassert lengst mot høyre*/

@@ -20,7 +20,7 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 
 		//Searchbar
 		"<form id=\"searchBar\">"+
-			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\""+
+			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\">"+
 		"</form>"+
 	"</ul>" +
 	"</a>";
