@@ -74,8 +74,6 @@ li.dropdown {
 	display: none; /*Dropdown skjules*/
 	position: fixed;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
-	border-bottom: solid #f2f2f2;
-	/*border-right: solid #f2f2f2;*/
 }
 
 /*Dropdown innhold style*/
@@ -86,6 +84,7 @@ li.dropdown {
 	display: block; /*Droppdown menyene blir til blocks, så de ligger under hverandre*/
 	padding: 10px;
 	margin: 20px;
+	border-bottom: solid white 1px;
 }
 
 /*dropdown når mus over*/
@@ -95,7 +94,7 @@ li.dropdown {
 
 /*linje under mus over menyknapp*/
 .navbar li a:hover {
-	border-bottom: solid gray 1px;
+	border-bottom: solid grey 1px;
 }
 
 
