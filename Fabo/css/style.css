@@ -58,7 +58,7 @@ a{
    og lager border imellom*/
 .navbar li{
 	float: left;
-	border-right: solid 1px gray /*#a7b3ba*/;
+	border-right: solid 1px white;
 }
 
 /*Fjerne venstre border på "FABO-studien" */
@@ -368,3 +368,23 @@ footer a:hover{
 	padding-top: 4%;
 }
 
+
+/*----FORSKNINGSGRUPPEN.HTML-----*/
+
+/*Bredden på bilde og tekst kombinert*/
+.post_forskningsgruppen{
+	padding: 2%;
+	width: 30%;
+}
+
+/*Størrelse bilde av person*/
+.bilde_forskningsgruppen{
+	width: 30%;
+}
+
+/*Tekst ved siden av bilde*/
+.tekst_forskningsgruppen{
+	position: absolute;
+	display: inline-block;
+	margin-left: 2%;
+}
