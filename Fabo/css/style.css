@@ -33,6 +33,7 @@ a{
    --------------------- */
 
 /*Plassering og bakgrunnsfarge av navbar*/
+
 .navbar {
 	width: 100%;
 	height: 66px;
@@ -61,7 +62,7 @@ a{
 	border-right: solid 1px white;
 }
 
-.navbar li:nth-child(4){
+.navbar li:nth-child(5){
 	border-style: none;
 }
 
@@ -74,6 +75,7 @@ li.dropdown {
 	display: none; /*Dropdown skjules*/
 	position: fixed;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	border-bottom: solid lightgrey 2px;
 }
 
 /*Dropdown innhold style*/
@@ -97,8 +99,70 @@ li.dropdown {
 	border-bottom: solid grey 1px;
 }
 
+/*skjuler hamburger-meny når vindu større enn 680px*/
+ul.navbar li.icon{
+	display: none;
+}
 
+/*----RESPONSIVE DESIGN-----*/
+@media only screen and (device-width:360px) 
+	and (device-height: 640px) 
+	{
 
+	/*Forstørrer høyden på navbar i mobil, så ser man hamb-ikonet*/
+	ul.navbar{
+		height: 150px;
+	}
+
+	/*utvider hver lengde på menyvalgene så de strekker seg over hele bredden*/
+	ul.navbar li, ul.navbar li a {
+		width: 100%;
+	}
+	/*skjuler searchbar*/
+	#searchBar{
+		display: none;
+	}
+	
+	/*Viser hamburger meny, pusher resten av menyene under*/
+	ul.navbar li.icon{
+		display: inline-block;
+	}
+
+	/*viser hele hovedmenyen når hamburger-ikon er trykket*/
+	ul.navbar.responsive{
+		background-color: #4c4b4b;
+		display: inline-block;
+		height: 70%;
+		width: 100%;
+	}
+
+	/*Forstørrer meny skriften*/
+	ul.navbar.responsive li a{
+		font-size: 50pt;
+		font-family: Century Gothic, sans-serif;
+	}
+
+	/*Viser undermeny når hovedmeny klikkes*/
+	li.dropdown.responsive .dropdowncnt{
+		display: block;
+		position: relative;
+		background-color: #c6c9ce; 
+	}
+
+	/*skjuler linje under*/
+	ul.navbar:hover li a{
+		border-style: none;
+	}
+	/*skjuler hovering på mobil*/
+	.dropdown:hover .dropdowncnt{
+		display: none;
+		border-style: none;
+	}
+	/*flytter innhold litt lenger ned når scrolling er helt oppe*/
+	#headerPicIndex{
+		margin-top: 80px;
+	}
+}
 
 /*SEARCHBAR IN NAVBAR
   -------------------*/
@@ -132,6 +196,8 @@ li.dropdown {
 #searchBarCnt:focus{
 	width: 30%;
 }
+
+
 
 /*HEADER PICTURE
   --------------*/
