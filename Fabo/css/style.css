@@ -279,6 +279,7 @@ footer a:hover{
 	width: 220px;
 	height: 140px;
 	transition: all 0.5s;
+	border-bottom: solid lightgrey 1px;
 
 }
 
@@ -290,6 +291,7 @@ footer a:hover{
 	margin-left: -3%;
 	transition: all 0.5s;
 	position: relative;
+	border-bottom: solid lightgrey 1px;
 
 }
 
@@ -349,13 +351,6 @@ footer a:hover{
 }
 
 /*---LENKER.HTML-----*/
-
-/*Størrelsen på bildeutklipp av nettside*/
-.bildeLenke{
-	width: 220px;
-	height: 140px;
-	border: solid grey 1px;
-}
 
 /*Endrer fargen på lenketeksten til lys grå når hovering*/
 .lenke:hover {
