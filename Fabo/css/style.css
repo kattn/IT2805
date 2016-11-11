@@ -110,7 +110,6 @@ ul.navbar li.icon{
 @media only screen and (device-width:360px) 
 	and (device-height: 640px)
 	{
-
 	/*----NAVIGASJONSBAR-MOBIL------*/
 	/*Forstørrer høyden på navbar i mobil, så ser man hamb-ikonet*/
 	ul.navbar{
@@ -300,8 +299,9 @@ footer a:hover{
 
 /*----FOOTER-MOBILE---*/
 @media only screen and (device-width:360px) 
-	and (device-height: 640px) 
+	and (device-height: 640px)
 	{
+
 	#headerPicIndex{
 		margin-top: 10%;
 	}
