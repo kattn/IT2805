@@ -1,3 +1,5 @@
+
+/*Kode inspirert og hentet fra http://www.w3schools.com/howto/howto_js_topnav.asp*/
 function responsiveFunction(){
 	var x = document.getElementById("myNavbar");
 	if (x.className === "navbar") {
