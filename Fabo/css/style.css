@@ -159,10 +159,6 @@ ul.navbar li.icon{
 		display: none;
 		border-style: none;
 	}
-	/*flytter innhold litt lenger ned når scrolling er helt oppe*/
-	#headerPicIndex{
-		margin-top: 80px;
-	}
 
 }
 
@@ -206,13 +202,12 @@ ul.navbar li.icon{
 #headerPicIndex{
 	padding-top: 60px;
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 15%
 
 }
 #headerPicFamilien{
 	padding-top: 60px;
-	width:80%;
+	width: 80%;
 	margin-left: 10%;
 }
 
