@@ -301,12 +301,10 @@ footer a:hover{
 	width: 245px;
 }
 
-#smallScreen{
+#smallScreen, #annetSmall, #logoSmall, #kontaktSmall{
 	display: none;
 }
-#annetSmall{
-	display: none;
-}
+
 
 /*----FOOTER-MOBILE---*/
 @media only screen and (device-width:360px) 
@@ -333,6 +331,7 @@ footer a:hover{
 	
 	/*Logo style*/
 	#logoSmall{
+		display: block;
 		width: 800px;
 		height: 300px;
 		margin-left: 9%;
