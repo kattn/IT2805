@@ -105,6 +105,8 @@ ul.navbar li.icon{
 }
 
 /*----RESPONSIVE DESIGN-----*/
+/*Kode er inspirert av http://www.w3schools.com/howto/howto_js_topnav.asp*/
+
 @media only screen and (device-width:360px) 
 	and (device-height: 640px) 
 	{
@@ -205,11 +207,11 @@ ul.navbar li.icon{
 	margin-left: 15%
 
 }
-#headerPicFamilien{
+/*#headerPicFamilien{
 	padding-top: 60px;
 	width: 80%;
 	margin-left: 10%;
-}
+}*/
 
 
 /*PAGE-TITLE AND CONTENT DESIGN
@@ -440,31 +442,30 @@ footer a:hover{
 	position: relative;
 }
 
+/*---FOR HELSESØSTER----*/
 /* Helsesøster lenker */
 
 .helse{
 	text-decoration: underline; /* For at helsesøsterne lettest mulig skal få tak i filen de ønsker*/
 }
 
+/*----FOR FAMILIEN----*/
+
 /* Familie tabellen */
 #ressurstabell{
-	border-style: solid;
-	border-width: 1px;  
 	width: 100%
 }
 
 #ressurstabell a:hover{
 	text-decoration: underline;
 }
-
-#ressurstabell td:first-child{
-	width: 50%
+#ressurstabell tr:first-child{
+	text-align: left;
+}
+#ressurstabell tr:first-child td{
+	font-size: 17pt;
 }
 
-#tittel {
-	font-size: 18px;
-
-}
 
 /*---LENKER.HTML-----*/
 
