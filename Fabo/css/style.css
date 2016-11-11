@@ -108,7 +108,7 @@ ul.navbar li.icon{
 /*Kode er inspirert av http://www.w3schools.com/howto/howto_js_topnav.asp*/
 
 @media only screen and (device-width:360px) 
-	and (device-height: 640px) 
+	and (device-height: 640px)
 	{
 
 	/*----NAVIGASJONSBAR-MOBIL------*/
@@ -202,16 +202,11 @@ ul.navbar li.icon{
 /*HEADER PICTURE
   --------------*/
 #headerPicIndex{
-	padding-top: 60px;
+	padding-top: 5%;
 	width: 70%;
 	margin-left: 15%
 
 }
-/*#headerPicFamilien{
-	padding-top: 60px;
-	width: 80%;
-	margin-left: 10%;
-}*/
 
 
 /*PAGE-TITLE AND CONTENT DESIGN
@@ -307,6 +302,9 @@ footer a:hover{
 @media only screen and (device-width:360px) 
 	and (device-height: 640px) 
 	{
+	#headerPicIndex{
+		margin-top: 10%;
+	}
 	
 	/*skjuler table i footer og alt innhold der*/
 	.footerTable{
@@ -353,10 +351,6 @@ footer a:hover{
   ------------------*/
 #center{
 	text-align: center;
-}
-
-#authors{
-
 }
 
 #articleTitle{
