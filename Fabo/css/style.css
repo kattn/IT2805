@@ -109,6 +109,7 @@ ul.navbar li.icon{
 	and (device-height: 640px) 
 	{
 
+	/*----NAVIGASJONSBAR-MOBIL------*/
 	/*Forstørrer høyden på navbar i mobil, så ser man hamb-ikonet*/
 	ul.navbar{
 		height: 150px;
@@ -162,6 +163,7 @@ ul.navbar li.icon{
 	#headerPicIndex{
 		margin-top: 80px;
 	}
+
 }
 
 /*SEARCHBAR IN NAVBAR
@@ -297,6 +299,58 @@ footer a:hover{
 #logo{
 	height: 100px;
 	width: 245px;
+}
+
+#smallScreen{
+	display: none;
+}
+#annetSmall{
+	display: none;
+}
+
+/*----FOOTER-MOBILE---*/
+@media only screen and (device-width:360px) 
+	and (device-height: 640px) 
+	{
+	
+	/*skjuler table i footer og alt innhold der*/
+	.footerTable{
+		display: none;
+	}
+
+
+	footer{
+		height: 1100px;/*høyden på footer*/
+	}
+
+	/*Style på tekst i footer*/
+	#annetSmall, #kontaktSmall, .a_tag_annet{
+		display: block;
+		text-align: center;
+		font-size: 40pt;
+		color:white;
+	}
+	
+	/*Logo style*/
+	#logoSmall{
+		width: 800px;
+		height: 300px;
+		margin-left: 9%;
+		padding-top: 60px;
+	}
+
+	/*strek under footer overskrifter*/
+	div#smallScreenFooter div p:first-child{
+		border-bottom: solid white 2px;
+		width: 800px;
+		margin: auto;
+		padding-top: 60px;
+	}
+
+	/*Hvis mobil-versjon footer*/
+	#smallScreenFooter{
+		display: block;
+	}
 }
 
 /*PUBLIKASJONER.HTML

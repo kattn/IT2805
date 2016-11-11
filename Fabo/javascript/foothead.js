@@ -35,9 +35,9 @@ var li = document.createElement("LI")*/
 document.getElementsByTagName("FOOTER")[0].innerHTML = 
 	"<table class=\"footerTable\"> " +
 		"<tr> " +
-			"<td id=\"annet\">Annet</td> " +
-			"<td id=\"kontakt\">Kontakt</td> " +
-			"<td id=\"picCell\" rowspan=\"5\"><img id=\"logo\" src=\"img/logos.png\" alt=\"logo uib and helseBergen\"></td> " +
+			"<td>Annet</td> " +
+			"<td>Kontakt</td> " +
+			"<td rowspan=\"5\"><img id=\"logo\" src=\"img/logos.png\" alt=\"logo uib and helseBergen\"></td> " +
 		"</tr> " +
 		"<tr> " +
 			"<td><div id=\"borderAnnet\"></div></td> " +
@@ -55,6 +55,24 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +
 			"<td></td>"+
 		"</tr> "+
-	"</table>";
+	"</table>" +
+
+	"<div id=\"smallScreenFooter\">"+
+		"<div id=\"annetSmall\">"+
+			"<p>Annet</p>"+
+			"<a class=\"a_tag_annet\" href=\"media.html\">Studien i media</a>"+
+			"<a class=\"a_tag_annet\" href=\"publikasjoner.html\">Publikasjoner</a>"+
+			"<a class=\"a_tag_annet\" href=\"sponsorer.html\">Sponsorer</a>"+
+		"</div>"+
+		"<div id=\"kontaktSmall\">"+
+			"<p>Kontakt</p>"+
+			"<p>Mail: petur.juliusson@k2.uib.no</p>"+
+			"<p>Tlf.: xxxxxxxx</p>"+
+		"</div>"+
+		"<div id=\"picCellSmall\">"+
+			"<img id=\"logoSmall\" src=\"img/logos.png\" alt=\"logo uib and helseBergen\">"+
+		"</div>"+
+	"</div>";
+
 
 
