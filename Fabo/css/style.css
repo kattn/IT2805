@@ -33,6 +33,7 @@ a{
    --------------------- */
 
 /*Plassering og bakgrunnsfarge av navbar*/
+
 .navbar {
 	width: 100%;
 	height: 66px;
@@ -61,7 +62,7 @@ a{
 	border-right: solid 1px white;
 }
 
-.navbar li:nth-child(4){
+.navbar li:nth-child(5){
 	border-style: none;
 }
 
@@ -74,6 +75,7 @@ li.dropdown {
 	display: none; /*Dropdown skjules*/
 	position: fixed;
 	background-color: white; /*#e6eaed;*/ /*bakgrunnsfarge på dropdown, samme som nav-bar*/
+	border-bottom: solid lightgrey 2px;
 }
 
 /*Dropdown innhold style*/
@@ -97,8 +99,70 @@ li.dropdown {
 	border-bottom: solid grey 1px;
 }
 
+/*skjuler hamburger-meny når vindu større enn 680px*/
+ul.navbar li.icon{
+	display: none;
+}
 
+/*----RESPONSIVE DESIGN-----*/
+/*Kode er inspirert av http://www.w3schools.com/howto/howto_js_topnav.asp*/
 
+@media only screen and (device-width:360px) 
+	and (device-height: 640px)
+	{
+
+	/*----NAVIGASJONSBAR-MOBIL------*/
+	/*Forstørrer høyden på navbar i mobil, så ser man hamb-ikonet*/
+	ul.navbar{
+		height: 150px;
+	}
+
+	/*utvider hver lengde på menyvalgene så de strekker seg over hele bredden*/
+	ul.navbar li, ul.navbar li a {
+		width: 100%;
+	}
+	/*skjuler searchbar*/
+	#searchBar{
+		display: none;
+	}
+	
+	/*Viser hamburger meny, pusher resten av menyene under*/
+	ul.navbar li.icon{
+		display: inline-block;
+	}
+
+	/*viser hele hovedmenyen når hamburger-ikon er trykket*/
+	ul.navbar.responsive{
+		background-color: #4c4b4b;
+		display: inline-block;
+		height: 70%;
+		width: 100%;
+	}
+
+	/*Forstørrer meny skriften*/
+	ul.navbar.responsive li a{
+		font-size: 50pt;
+		font-family: Century Gothic, sans-serif;
+	}
+
+	/*Viser undermeny når hovedmeny klikkes*/
+	li.dropdown.responsive .dropdowncnt{
+		display: block;
+		position: relative;
+		background-color: #c6c9ce; 
+	}
+
+	/*skjuler linje under*/
+	ul.navbar:hover li a{
+		border-style: none;
+	}
+	/*skjuler hovering på mobil*/
+	.dropdown:hover .dropdowncnt{
+		display: none;
+		border-style: none;
+	}
+
+}
 
 /*SEARCHBAR IN NAVBAR
   -------------------*/
@@ -133,19 +197,15 @@ li.dropdown {
 	width: 30%;
 }
 
+
+
 /*HEADER PICTURE
   --------------*/
 #headerPicIndex{
-	padding-top: 60px;
+	padding-top: 5%;
 	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 15%
 
-}
-#headerPicFamilien{
-	padding-top: 60px;
-	width:80%;
-	margin-left: 10%;
 }
 
 
@@ -233,14 +293,64 @@ footer a:hover{
 	width: 245px;
 }
 
+#smallScreen, #annetSmall, #logoSmall, #kontaktSmall{
+	display: none;
+}
+
+
+/*----FOOTER-MOBILE---*/
+@media only screen and (device-width:360px) 
+	and (device-height: 640px) 
+	{
+	#headerPicIndex{
+		margin-top: 10%;
+	}
+	
+	/*skjuler table i footer og alt innhold der*/
+	.footerTable{
+		display: none;
+	}
+
+
+	footer{
+		height: 1100px;/*høyden på footer*/
+	}
+
+	/*Style på tekst i footer*/
+	#annetSmall, #kontaktSmall, .a_tag_annet{
+		display: block;
+		text-align: center;
+		font-size: 40pt;
+		color:white;
+	}
+	
+	/*Logo style*/
+	#logoSmall{
+		display: block;
+		width: 800px;
+		height: 300px;
+		margin-left: 9%;
+		padding-top: 60px;
+	}
+
+	/*strek under footer overskrifter*/
+	div#smallScreenFooter div p:first-child{
+		border-bottom: solid white 2px;
+		width: 800px;
+		margin: auto;
+		padding-top: 60px;
+	}
+
+	/*Hvis mobil-versjon footer*/
+	#smallScreenFooter{
+		display: block;
+	}
+}
+
 /*PUBLIKASJONER.HTML
   ------------------*/
 #center{
 	text-align: center;
-}
-
-#authors{
-
 }
 
 #articleTitle{
@@ -326,31 +436,30 @@ footer a:hover{
 	position: relative;
 }
 
+/*---FOR HELSESØSTER----*/
 /* Helsesøster lenker */
 
 .helse{
 	text-decoration: underline; /* For at helsesøsterne lettest mulig skal få tak i filen de ønsker*/
 }
 
+/*----FOR FAMILIEN----*/
+
 /* Familie tabellen */
 #ressurstabell{
-	border-style: solid;
-	border-width: 1px;  
 	width: 100%
 }
 
 #ressurstabell a:hover{
 	text-decoration: underline;
 }
-
-#ressurstabell td:first-child{
-	width: 50%
+#ressurstabell tr:first-child{
+	text-align: left;
+}
+#ressurstabell tr:first-child td{
+	font-size: 17pt;
 }
 
-#tittel {
-	font-size: 18px;
-
-}
 
 /*---LENKER.HTML-----*/
 
