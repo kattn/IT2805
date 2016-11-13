@@ -23,7 +23,7 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
 		//Searchbar
 		"<form id=\"searchBar\">"+
-			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\">"+
+			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Søk...\">"+
 		"</form>"+
 	"</ul>" +
 	"</a>";
