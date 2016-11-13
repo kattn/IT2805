@@ -12,8 +12,8 @@ var txt = [];
 iframe.setAttribute("display","none");
 document.getElementsByTagName("BODY")[0].appendChild(iframe);*/
 
-/* Search collect all the text of all pages into txt[] */
-/* Not very effective since all text is stored in memory, but do be done in time */
+/* Store all of the pages into xhr[] */
+/* Not very effective since all the pages is, but do be done in time */
 /* it was need. */
 for(var i = 0, len = pages.length; i < len; i++){
 		xhr[i] = new XMLHttpRequest();
@@ -33,17 +33,24 @@ function(event){
 	event.preventDefault();
 	console.log("Submit clicked.");
 
-	var finds = [];
-
+	var failedSearch = true;
 	for(var i = 0, len = pages.length; i < len; i++){
-		finds.push(searchPage(xhr[i].responseText,document.getElementById("txt").value));
+		/* Add all the placement of the finds */
+		txt[i] = (searchPage(xhr[i].responseText,document.getElementById("txt").value));
+		
+		/* If any searchvalue was found, set failedSearch to false. */
+		if(txt[i].length > 0){
+			failedSearch = false;
+		}
 	}
 
-	
+	if(failedSearch){
+		
+	}
 });
 
 
-/* Search a page for the giveN search term and returns all placements for it*/
+/* Search a page for the given search term and returns all placements for it*/
 function searchPage(cont, searchTerm){
 
 	console.log("hello")
