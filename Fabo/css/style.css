@@ -5,7 +5,7 @@ html{
 body{
 	
 	background-color: white;
-	font-family: Century Gothic, sans-serif;
+	font-family: Century Gothic, Arial;
 	color: #595959;/*Skriftfarge i content*/
 	font-size: 13pt;
 	margin: 0;
@@ -110,7 +110,6 @@ ul.navbar li.icon{
 @media only screen and (device-width:360px) 
 	and (device-height: 640px)
 	{
-
 	/*----NAVIGASJONSBAR-MOBIL------*/
 	/*Forstørrer høyden på navbar i mobil, så ser man hamb-ikonet*/
 	ul.navbar{
@@ -196,7 +195,6 @@ ul.navbar li.icon{
 #searchBarCnt:focus{
 	width: 30%;
 }
-
 
 
 /*HEADER PICTURE
@@ -300,8 +298,9 @@ footer a:hover{
 
 /*----FOOTER-MOBILE---*/
 @media only screen and (device-width:360px) 
-	and (device-height: 640px) 
+	and (device-height: 640px)
 	{
+
 	#headerPicIndex{
 		margin-top: 10%;
 	}

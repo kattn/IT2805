@@ -23,7 +23,7 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
 		//Searchbar
 		"<form id=\"searchBar\">"+
-			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Search...\">"+
+			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Søk...\">"+
 		"</form>"+
 	"</ul>" +
 	"</a>";
@@ -49,7 +49,7 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"publikasjoner.html\">Publikasjoner</a></td> " +
-			"<td>Tlf.: 99999999</td> " +
+			"<td>Tlf.: XXXXXXXX</td> " +
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +
