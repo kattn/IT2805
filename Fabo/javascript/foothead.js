@@ -1,3 +1,4 @@
+/* Get the header element and set its innerHTML to a stadard setup for all the pages. */
 document.getElementsByTagName("HEADER")[0].innerHTML = 
 	"<ul class=\"navbar\" id=\"myNavbar\">" +
 		"<li class=\"icon\">"+
@@ -28,10 +29,7 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 	"</ul>" +
 	"</a>";
 
-/*var list = document.createElement("UL");
-list.setAttributeNode(document.createAttribute("class").value = "navbar");
-var li = document.createElement("LI")*/
-
+/* Get the footer element and set its innerHTML to a stadard setup for all the pages. */
 document.getElementsByTagName("FOOTER")[0].innerHTML = 
 	"<table class=\"footerTable\"> " +
 		"<tr> " +
