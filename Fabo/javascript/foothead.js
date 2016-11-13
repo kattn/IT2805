@@ -49,7 +49,7 @@ document.getElementsByTagName("FOOTER")[0].innerHTML =
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"publikasjoner.html\">Publikasjoner</a></td> " +
-			"<td>Tlf.: 99999999</td> " +
+			"<td>Tlf.: XXXXXXXX</td> " +
 		"</tr> " +
 		"<tr> " +
 			"<td><a href=\"sponsorer.html\">Sponsorer</a></td> " +
