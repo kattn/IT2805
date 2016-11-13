@@ -23,9 +23,9 @@ document.getElementsByTagName("HEADER")[0].innerHTML =
 		"<li><a href=\"lenker.html\">Lenker</a></li>" +
 		"<li><a href=\"nytt.html\">Nytt fra studien</a></li>" +
 		//Searchbar
-		"<form id=\"searchBar\">"+
+		/*"<form id=\"searchBar\">"+
 			"<input id=\"searchBarCnt\" type=\"text\" name=\"searchBar\" placeholder=\"Søk...\">"+
-		"</form>"+
+		"</form>"+*/
 	"</ul>" +
 	"</a>";
 
