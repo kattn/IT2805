@@ -1,0 +1,199 @@
+<html>
+<head>
+	<title> P4 - Testing </title>
+	<meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<article>
+	<h1>P4 - Testing </h1>
+	<p>Authorus: Renate Bech-Sørensen, Martin Bjerke, Monika Buås-Hansen, Oddrún Pétursdóttir <br/>
+	Date: 12.september 2016
+	</p>
+
+	<h3> Testplan og testcases </h3>
+	<p> En brukbarhetstest utført på vegne av Petur Benedikt Juliusson for FABO-studiet.
+	Med tanke på prosjektets størrelse anslo vi at det var ønskelig med minst 3-5 brukere for å få et brukbart datasett av tilbakemeldinger på det ferdige produktet. Testene ble utført av et representativt utvalg testpersoner (mellom 26-40 år, da vi antar at foresatte og helsepersonell er i denne aldersgruppen). For å kartlegge best mulig hvordan nettsiden blir oppfattet fra noen som ønsker å bruke nettsiden som informasjonskanal og lære mer om studiet, valgte vi testpersoner som var utenforstående til FABO-studiet. Målet med testene var å sjekke at hjemmesiden er intuitiv og enkel å navigere seg frem til den informasjonen man ønsker å finne. Testen ble utført i flere nettlesere på PC (Safari og Google Chrome), samt mobil (samsung GalaxyS6), for å sjekke at alle funksjoner fungerer slik de skal på alle plattformer.
+	</p>
+  <p>I forkant av selve testingen introduserte testleder seg ved å håndhilse på testpersonen for å skape trygghet. Testen ble holdt på et stille grupperom med kun testleder og testperson. Videre ble hensikten med testen forklart, og understreket at vi tester programmet og ikke testeren. Testleder valgte å fokusere på Task Performance, altså om oppgaven ble fullført, samt antall feiltrykk og kommentarer underveis, fremfor Time Performance, altså tiden det tok for brukeren å nå suksesskriteriet. Testpersonen ble oppfordret til å tenke høyt underveis slik at testlederen fikk inntrykk av hvordan testpersonen tenkte. 
+	I tillegg til disse brukbarhetstestene, hadde vi GIT repositoriet for å teste «småting» underveis og godkjenne kode. Vi hadde en for HTML, en for JS og en for CSS. 
+
+	<h3>Resultat og kommentarer til testene: </h3>
+	<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+	<table style="width:100%">
+  <tr>
+    <th>Testnummer</th>
+    <th>1. Bruker skal finne informasjon om FABO-studien</th>
+  </tr>
+  <tr>
+    <td>Betingelse for test</td>
+    <td>Kreves at testeren har tilgang til internett + nettsiden</td>
+  </tr>
+  <tr>
+    <td>Test data</td>
+    <td>1. Trykker på “FABO-studien” i navigasjonsbaren</td>
+  </tr>
+  <tr>
+    <td>Forventet resultat</td>
+    <td>Bruker kommer til informasjonssiden om FABO-studiet</td>
+  </tr>
+    <tr>
+    <td>Faktisk resultat</td>
+    <td>Google Chrome: Brukeren trykket på “FABO-studien”, scrollet ned for å få mer informasjon
+Safari: Brukeren trykket på “FABO-studien”, scrollet ned for å få mer informasjon
+Samsung GalaxyS6: Brukeren trykket på “FABO-studien”, scrollet ned for å få mer informasjon</td>
+  </tr>
+  <tr>
+  <td>Status test</td>
+  <td>Google Chrome:Godkjent
+Safari: Godkjent
+Samsung GalaxyS6: Godkjent</td>
+  </tr>
+    </tr>
+  <tr>
+  <td>Kommentar</td>
+  <td>Alle testobjektene trykket på FABO-studien, men sa i ettertid at det var fordi de var usikre på om det var mer informasjon enn det som kom opp på førstestudien. Mente at i en reell situasjon så ville de ha scrollet nedover siden uten å trykke i navigasjonsbaren, men at de nå følte at vi “måtte” trykke på noe ettersom det var en test.</td>
+  </tr>
+</table>
+
+
+	<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+	<table style="width:100%">
+  <tr>
+    <th>Testnummer</th>
+    <th>2. Hent vanebok 14</th>
+  </tr>
+  <tr>
+    <td>Betingelse for test</td>
+    <td>Kreves at testeren har tilgang til internett + nettsiden</td>
+  </tr>
+  <tr>
+    <td>Test data</td>
+    <td>Trykk på “Materiell” i navigasjonsbaren, deretter “for familie”. Velg “vanebok 14”
+</td>
+  </tr>
+  <tr>
+    <td>Forventet resultat</td>
+    <td>Bruker finner vanebok 14</td>
+  </tr>
+    <tr>
+    <td>Faktisk resultat</td>
+    <td>Google Chrome: Trykket på “Materiell”, men var litt usikker. Trykket likevel på første forsøk på “for familie” og fant vanebok 14. Tar i betrakning at dette er testpersoner som ikke vet så mye om studiet av fra før, og at det dermed ikke er gitt at testpersonen vet hvor en vanebok burde ligge. 
+Safari: Dropdown menyen kom ikke ned ved å hovre over navigasjonsbaren, så testpersonen brukte litt tid og flyttet seg rundt om på siden før hun uttrykte at hun ikke visste hvor hun skulle trykke. Fant det til slutt da hun trykket på “Materiell”. 
+Samsung GalaxyS6: Testpersonen trykket på “materiell”, deretter “for familie</td>
+  </tr>
+  <tr>
+  <td>Status test</td>
+  <td>Google Chrome: Godkjent
+Safari: Ikke godkjent, brukeren forstår ikke at vanebok er en del av materiell, dropdown-meny må på plass.
+Samsung GalaxyS6: Godkjent</td>
+  </tr>
+    </tr>
+  <tr>
+  <td>Kommentar</td>
+  <td>Fikse Dropdown-meny for Safari.</td>
+  </tr>
+</table>
+
+
+
+	<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+	<table style="width:100%">
+  <tr>
+    <th>Testnummer</th>
+    <th>3. Finn sponsorer</th>
+  </tr>
+  <tr>
+    <td>Betingelse for test</td>
+    <td>Kreves at testeren har tilgang til internett + nettsiden</td>
+  </tr>
+  <tr>
+    <td>Test data</td>
+    <td>Brukeren må scrolle ned til footeren, deretter trykke på “sponsorer”. Tester om det er intuitivt at den ligger der den gjø</td>
+  </tr>
+  <tr>
+    <td>Forventet resultat</td>
+    <td>Brukeren scroller til footer, finner sponsorer.</td>
+  </tr>
+    <tr>
+    <td>Faktisk resultat</td>
+    <td>Google Chrome: Trykket på “lenker”, før hun prøve søkemotoren (som dessverre ikke fungerte når testpersonen testet nettsiden). Ga til slutt opp. 
+Safari: Trykket først på “lenker” før hun scrollet ned til footeren. 
+Samsung GalaxyS6: Innom flere sider, bla “lenker” og “FABO-studiet”, men finner ikke sponsorer. Gir opp oppgaven</td>
+  </tr>
+  <tr>
+  <td>Status test</td>
+  <td>Google Chrome: Ikke godkjent
+Safari: Godkjent
+Samsung GalaxyS6: Ikke godkje</td>
+  </tr>
+    </tr>
+  <tr>
+  <td>Kommentar</td>
+  <td>Ingen av testobjektene scrollet direkte ned til footeren. Kunde må tenke på om dette er viktig at brukeren finner med en gang</td>
+  </tr>
+</table>
+
+
+
+	<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
+	<table style="width:100%">
+  <tr>
+    <th>Testnummer</th>
+    <th>4. Finn publiserte artikler om studien</th>
+  </tr>
+  <tr>
+    <td>Betingelse for test</td>
+    <td>Kreves at testeren har tilgang til internett + nettsiden</td>
+  </tr>
+  <tr>
+    <td>Test data</td>
+    <td>Brukeren må scrolle ned til footeren, deretter trykke på “publikasjoner”</td>
+  </tr>
+  <tr>
+    <td>Forventet resultat</td>
+    <td>Erfaringsbasertlæring, sjekker om testeren gjenkjenner informasjonen fra footer fra forrige test.</td>
+  </tr>
+    <tr>
+    <td>Faktisk resultat</td>
+    <td>Google Chrome: Scrollet direkte ned til footeren, sa at hun så det tidligere og at det var derfor hun fant det så raskt.
+Safari: Scrollet direkte ned til footeren, sa at hun så det tidligere og at det var derfor hun fant det så raskt.
+Samsung GalaxyS6: Stopper opp, usikkerhet rundt sidens funksjon. Nøler litt før hun scroller ned til footeren og finner publikasjoner.</td>
+  </tr>
+  <tr>
+  <td>Status test</td>
+  <td>Google Chrome: Godkjent
+Safari: Godkjent
+Samsung GalaxyS6: Godkjen</td>
+  </tr>
+    </tr>
+  <tr>
+  <td>Kommentar</td>
+  <td></td>
+  </tr>
+</table>
+
+<p> <br>Målet med denne testen var å teste noen av funksjonalitetene ved hjemmesiden, og dokumentere feil og svakheter for å videre kunne gi et forbedringsforslag. Analysen av testene er gjort på grunnlag av dette målet. Observasjonene testleder gjorde seg var at grensesnittet virket overkommelig for testobjektene, men at det oppstod problemer ved testcase 3, da kun 1 av våre 3 testpersoner klarte oppgaven. Opplevde også problemer på testcase 2 til nettleser i Safari, men dette problemet var vi klar over på forhånd da nettsiden ikke er kompatibel med Ipad/Iphone enda heller. 
+
+
+<br><br>Kommentarene fra testpersonene i etterkant var at det var selve interessen/kunnskapen om studiet fra før av som gjorde noen av testcasene vanskelige, og at siden var forståelig og innbydende. Det var enkelt å forstå hva som var en knapp, og at det var positivt med “hovring” over navigasjonsbaren for å se mulige valg - altså at alt var visuelt tydelig. Når det gjelder Testcase 3, så må klienten avgjøre om det er verdt det å flytte sponsorer til en mer synlig plass på siden, eller om dette er for kun interesserte. Målet med denne testcasen var å få brukeren til å oppdage footeren, men man bør vurdere om dette ikke bare bør vises i footer, men pekes til i f.eks “lenker”. </p>
+
+
+</html>
